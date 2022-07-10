@@ -7,13 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- link css & bootstrap -->
-    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
     <!-- nav bar -->
-    <nav class="navbar navbar-expand-lg bg-wight">
+    <nav class="navbar navbar-expand-lg bg-wight navbar-stay-top ">
         <div class="container">
             <a href="#" class="navbar-brand"><img src="./assets/images/formalab.png" alt="logo formalab"
                     width="150"></a>
@@ -25,16 +25,16 @@
             <div class="collapse navbar-collapse " id="navbar-menu">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Home</a>
+                        <a href="#home-section" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">About</a>
+                        <a href="#about-section" class="nav-link">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Skills</a>
+                        <a href="#Skills-section" class="nav-link">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Services</a>
+                        <a href="#services-section" class="nav-link">Services</a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link">Contact</a>
@@ -43,10 +43,10 @@
             </div>
         </div>
     </nav>
-    <!-- hey section -->
-    <div class="container my-4 ">
+    <!-- HOME section -->
+    <div class="container my-3" id="home-section">
         <div class="row align-items-center">
-            <div class="col-sm-12 col-md-6 col-lg-6 border-danger ">
+            <div class="col-sm-12 col-md-6 col-lg-6  ">
                 <H2>Hey! _____</H2>
                 <h1>I am Amen Hajlaoui</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam eligendi, quas tempore ex ipsum
@@ -54,11 +54,122 @@
                 <button class="btn btn-outline-danger">Hire me</button>
                 <button class="btn btn-outline-success">contact</button>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-6  border-danger">
-                <img src="./assets/images/undraw_Programming_re_kg9v.png" alt="" width="500">
+            <div class="col-sm-12 col-md-6 col-lg-6  ">
+                <img src="./assets/images/undraw_Programming_re_kg9v.png" alt="" width="600">
             </div>
         </div>
     </div>
+    <!-- About me section -->
+    <div class="container my-5" id="about-section">
+        <div class="row align-items-center">
+            <div class="col-sm-12 col-md-6 col-lg-6  ">
+                <img src="./assets/images/undraw_Books_re_8gea.png" alt="" width="500">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 ">
+                <H1 class="mb-5 ps-4">____ About me ____</H1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam eligendi, quas tempore ex ipsum
+                    nostrum aut nam, provident, amet fuga optio ducimus nisi!</p>
+            </div>
+        </div>
+    </div>
+    <!-- my skills section -->
+    <div class="container my-5" id="Skills-section">
+        <div class="row align-items-center text-center ">
+            <h1>_____My skills_____</h1>
+        </div>
+        <div class="row align-items-center ">
+            <div class="col-sm-12 col-md-6 col-lg-6  ">
+                <div class="progress my-3">
+                    <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 95%"
+                        aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">HTML</div>
+                </div>
+                <div class="progress my-3">
+                    <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 95%"
+                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">CSS</div>
+                </div>
+                <div class="progress my-3">
+                    <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 90%"
+                        aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">BOOTSTRAP</div>
+                </div>
+                <div class="progress my-3">
+                    <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 75%"
+                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">SASS</div>
+                </div>
+                <div class="progress my-3">
+                    <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 60%"
+                        aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">JAVA SCRIPT</div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6  ">
+                <img src="./assets/images/undraw_Site_stats_re_ejgy.png" alt="" width="600">
+            </div>
+        </div>
+    </div>
+    <!-- our services -->
+    <div class="container my-5" id="services-section">
+        <div class="row align-items-center text-center mb-3 ">
+            <h1>_____Our services_____</h1>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./assets/images/undraw_design_tools_42tf.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">UI/UX Design</h5>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui harum iusto sapiente a assumenda error fuga ratione commodi veniam autem?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./assets/images/undraw_static_assets_rpm6.png" class="card-img-top" alt="..." >
+                    <div class="card-body">
+                        <h5 class="card-title">Dev Designing</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id iure ut officiis fugiat tempore eos ab obcaecati magni illum mollitia?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./assets/images/undraw_server_down_s4lk.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Web Devolpment</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum numquam doloremque modi eaque sed vero nemo molestiae omnis, aliquam totam!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./assets/images/undraw_search_engines_nn9e.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">SEO</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis delectus minus ipsam illo voluptatum aperiam quod, aspernatur alias eos tenetur?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./assets/images/undraw_Mobile_development_re_wwsn.png" class="card-img-top" alt="..." >
+                    <div class="card-body">
+                        <h5 class="card-title">Mobile application</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id iure ut officiis fugiat tempore eos ab obcaecati magni illum mollitia?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./assets/images/undraw_progressive_app_m9ms.png" class="card-img-top" alt="..." >
+                    <div class="card-body">
+                        <h5 class="card-title">Desktop application</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id iure ut officiis fugiat tempore eos ab obcaecati magni illum mollitia?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
 
 
     <!-- link js -->
