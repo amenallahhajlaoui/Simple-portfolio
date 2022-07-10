@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
 * {
-    font-family: 'Montserrat';
+    font-family: 'lobster' sans-serif;
 }
 .navbar-stay-top {
     overflow: hidden;
@@ -11,6 +11,7 @@
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
 }
+
 
 .my-6 {
     margin-top: 5rem;
